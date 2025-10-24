@@ -232,7 +232,7 @@
 			"year": 2022,
 			"link": "https://doi.org/10.2139/ssrn.4010947",
 			"journal": {
-				"id": "NotFound",
+				"id": "NotPublished",
 				"retracted": false
 			},
 			"citations": 104,
@@ -262,7 +262,7 @@
 			"year": 2022,
 			"link": "https://doi.org/10.1101/2021.12.30.21268565",
 			"journal": {
-				"id": "NotFound",
+				"id": "NotPublished",
 				"retracted": false
 			},
 			"citations": 119,
@@ -629,7 +629,7 @@
 			"year": 2022,
 			"link": "https://doi.org/10.1101/2021.10.13.21264960",
 			"journal": {
-				"id": "NotFound",
+				"id": "NotPublished",
 				"retracted": false
 			},
 			"citations": 92,
