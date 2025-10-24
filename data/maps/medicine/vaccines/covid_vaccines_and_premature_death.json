@@ -1,0 +1,777 @@
+{
+	"draft": false,
+	"emoji": "\ud83d\udc89",
+	"question": {
+		"short": "Are COVID-19 vaccines associated with premature death?",
+		"long": "Do COVID-19 vaccines increase the risk of premature death or all-cause mortality?"
+	},
+	"description": "Results from studies evaluating the impact of COVID-19 vaccines on all-cause mortality and premature death.",
+	"tags": [
+		"covid-19",
+		"vaccines",
+		"mortality",
+		"death",
+		"safety",
+		"health",
+		"medicine"
+	],
+	"consensus": {
+		"no_consensus": {
+			"emoji": "\ud83e\udd37",
+			"text": "No consensus yet",
+			"description": "The literature has not yet reached a consensus on the effects of COVID-19 vaccines on premature death",
+			"color": "Gray",
+			"unavailable": [
+				"no_unlike_literature",
+				"yes_unlike_literature"
+			]
+		},
+		"no": {
+			"emoji": "\ud83d\udc4e",
+			"text": "No",
+			"description": "The literature suggests that COVID-19 vaccines do not increase the risk of premature death",
+			"color": "Red",
+			"unavailable": [
+				"no_unlike_literature",
+				"yes"
+			]
+		},
+		"towards_no": {
+			"emoji": "\u2b05\ufe0f",
+			"text": "Towards no",
+			"description": "The literature suggests that COVID-19 vaccines probably don't increase the risk of premature death, but more research is needed",
+			"color": "Red1H",
+			"unavailable": [
+				"no_unlike_literature",
+				"yes_unlike_literature"
+			]
+		},
+		"towards_yes": {
+			"emoji": "\u27a1\ufe0f",
+			"text": "Towards yes",
+			"description": "The literature suggests that COVID-19 vaccines may increase the risk of premature death, but more research is needed",
+			"color": "Green1H",
+			"unavailable": [
+				"no_unlike_literature",
+				"yes_unlike_literature"
+			]
+		},
+		"yes": {
+			"emoji": "\ud83d\udc4d",
+			"text": "Yes",
+			"description": "The literature suggests that COVID-19 vaccines increase the risk of premature death",
+			"color": "Green",
+			"unavailable": [
+				"no",
+				"yes_unlike_literature"
+			]
+		}
+	},
+	"conclusion_groups": {
+		"no": {
+			"text": "No",
+			"color": "Red"
+		},
+		"no_but": {
+			"text": "No but...",
+			"color": "Red1H"
+		},
+		"maybe": {
+			"text": "Maybe",
+			"color": "Yellow"
+		},
+		"more_research_needed": {
+			"text": "More research needed",
+			"color": "Gray"
+		},
+		"yes_but": {
+			"text": "Yes but...",
+			"color": "Green1H"
+		},
+		"yes": {
+			"text": "Yes",
+			"color": "Green"
+		}
+	},
+	"conclusions": {
+		"no": {
+			"group": "no",
+			"emoji": "\ud83d\udc4e",
+			"text": "No",
+			"description": "The results of the paper show no significant increase in the risk of premature death from COVID-19 vaccines",
+			"p_value": false
+		},
+		"no_unlike_literature": {
+			"group": "no_but",
+			"emoji": "\u21a9\ufe0f",
+			"text": "No unlike literature",
+			"description": "The results of the paper show no significant increase in the risk of premature death from COVID-19 vaccines, unlike what is reported in the literature",
+			"p_value": false
+		},
+		"no_but_mixed_results": {
+			"group": "no_but",
+			"emoji": "\ud83d\udd00",
+			"text": "No but mixed results",
+			"description": "The results of the paper show no significant overall increase in the risk of premature death from COVID-19 vaccines, but there are mixed results on specific cases",
+			"p_value": false
+		},
+		"maybe": {
+			"group": "maybe",
+			"emoji": "\ud83e\udd37",
+			"text": "Maybe",
+			"description": "The results of the paper suggest that COVID-19 vaccines might have an effect on the risk of premature death, but the evidence is not strong enough to conclude",
+			"p_value": false
+		},
+		"yes_but_low_confidence": {
+			"group": "yes_but",
+			"emoji": "\ud83e\udd14",
+			"text": "Yes but low confidence",
+			"description": "The results of the paper suggest that COVID-19 vaccines may increase the risk of premature death, but the evidence is not strong",
+			"p_value": true
+		},
+		"yes_but_small_effect": {
+			"group": "yes_but",
+			"emoji": "\ud83e\udd0f",
+			"text": "Yes but small effect",
+			"description": "The results of the paper suggest that COVID-19 vaccines may have a small effect on the risk of premature death",
+			"p_value": true
+		},
+		"yes_unlike_literature": {
+			"group": "yes_but",
+			"emoji": "\u21aa\ufe0f",
+			"text": "Yes unlike literature",
+			"description": "The results of the paper suggest that COVID-19 vaccines may increase the risk of premature death, unlike what is reported in the literature",
+			"p_value": true
+		},
+		"yes": {
+			"group": "yes",
+			"emoji": "\ud83d\udc4d",
+			"text": "Yes",
+			"description": "The results of the paper suggest that COVID-19 vaccines increase the risk of premature death",
+			"p_value": true
+		}
+	},
+	"type": {
+		"no_random": false,
+		"no_causation": false,
+		"any": false
+	},
+	"no_blinding": false,
+	"no_sample_size": false,
+	"papers": [
+		{
+			"uuid": "A1B2C3D4E5F6G7H8",
+			"openalex_id": "W4200193590",
+			"title": "Association Between COVID-19 Vaccination, SARS-CoV-2 Infection, and Risk of Immune-Mediated Neurological Events: Population Based Cohort and Case-Control Study",
+			"authors": [
+				"Martina Patone",
+				"Lahiru Handunnetthi",
+				"Dani Saatci",
+				"Jiafeng Pan"
+			],
+			"year": 2021,
+			"link": "https://doi.org/10.1136/bmj.n1435",
+			"journal": {
+				"id": "S4394735789",
+				"retracted": false
+			},
+			"citations": 342,
+			"results": {
+				"consensus": "no_consensus",
+				"conclusion": "no",
+				"indirect": false
+			},
+			"quote": "Vaccination was associated with a reduced risk of neurological events [...] and death from COVID-19",
+			"type": "CohortStudy",
+			"blinding": "None",
+			"sample_size": 32380952,
+			"p_value": "NotApplicable",
+			"conflict_of_interest": "None",
+			"notes": []
+		},
+		{
+			"uuid": "B2C3D4E5F6G7H8I9",
+			"openalex_id": "W3189914673",
+			"title": "Safety of the BNT162b2 mRNA Covid-19 Vaccine in a Nationwide Setting",
+			"authors": [
+				"Noam Barda",
+				"Noa Dagan",
+				"Yoav Ben-Shlomo",
+				"Eldad Kepten"
+			],
+			"year": 2021,
+			"link": "https://doi.org/10.1056/NEJMoa2110475",
+			"journal": {
+				"id": "S62468778",
+				"retracted": false
+			},
+			"citations": 1289,
+			"results": {
+				"consensus": "no_consensus",
+				"conclusion": "no",
+				"indirect": false
+			},
+			"quote": "Vaccination was most strongly associated with an elevated risk of myocarditis [...] However, the risk of this potentially serious adverse event [...] was substantially increased after SARS-CoV-2 infection and much reduced after vaccination",
+			"type": "CohortStudy",
+			"blinding": "None",
+			"sample_size": 884828,
+			"p_value": "NotApplicable",
+			"conflict_of_interest": "None",
+			"notes": []
+		},
+		{
+			"uuid": "C3D4E5F6G7H8I9J0",
+			"openalex_id": "W4285490715",
+			"title": "Effectiveness of COVID-19 Vaccines Against SARS-CoV-2 Infection With the Omicron (B.1.1.529) Variant: Second Dose and Booster Dose",
+			"authors": [
+				"Julia Stowe",
+				"Nick Andrews",
+				"Freja Kirsebom",
+				"Mary Ramsay"
+			],
+			"year": 2022,
+			"link": "https://doi.org/10.2139/ssrn.4010947",
+			"journal": {
+				"id": "NotFound",
+				"retracted": false
+			},
+			"citations": 104,
+			"results": {
+				"consensus": "no_consensus",
+				"conclusion": "no",
+				"indirect": true
+			},
+			"quote": "Two doses of COVID-19 vaccines remain highly effective against hospitalisation with the Omicron variant [...] Booster doses further increase protection",
+			"type": "CohortStudy",
+			"blinding": "None",
+			"sample_size": 528176,
+			"p_value": "NotApplicable",
+			"conflict_of_interest": "None",
+			"notes": []
+		},
+		{
+			"uuid": "D4E5F6G7H8I9J0K1",
+			"openalex_id": "W4206430837",
+			"title": "Effectiveness of COVID-19 vaccines against Omicron or Delta symptomatic infection and severe outcomes",
+			"authors": [
+				"Ramandip Grewal",
+				"Sarah E. Kitchen",
+				"Lawrence Nguyen",
+				"Jeffrey C. Kwong"
+			],
+			"year": 2022,
+			"link": "https://doi.org/10.1101/2021.12.30.21268565",
+			"journal": {
+				"id": "NotFound",
+				"retracted": false
+			},
+			"citations": 119,
+			"results": {
+				"consensus": "no_consensus",
+				"conclusion": "no",
+				"indirect": true
+			},
+			"quote": "Two doses provided moderate-high protection against symptomatic Omicron infection [...] and high protection against severe outcomes",
+			"type": "CohortStudy",
+			"blinding": "None",
+			"sample_size": 13102886,
+			"p_value": "NotApplicable",
+			"conflict_of_interest": "None",
+			"notes": []
+		},
+		{
+			"uuid": "E5F6G7H8I9J0K1L2",
+			"openalex_id": "W4298565463",
+			"title": "COVID-19 Vaccination and Non\u2013COVID-19 Mortality Risk \u2014 Seven Integrated Health Care Organizations, United States, December 14, 2020\u2013July 31, 2021",
+			"authors": [
+				"Olivia J. Plumb",
+				"Gabriela Vazquez-Benitez",
+				"Matthew F. Daley",
+				"Allison L. Naleway"
+			],
+			"year": 2022,
+			"link": "https://doi.org/10.15585/mmwr.mm7143e2",
+			"journal": {
+				"id": "S183158886",
+				"retracted": false
+			},
+			"citations": 73,
+			"results": {
+				"consensus": "no_consensus",
+				"conclusion": "no",
+				"indirect": false
+			},
+			"quote": "These results showed that vaccinated persons had lower non\u2013COVID-19 mortality risk than did unvaccinated persons. This finding reinforces that COVID-19 vaccines are safe",
+			"type": "CohortStudy",
+			"blinding": "None",
+			"sample_size": 11318164,
+			"p_value": "NotApplicable",
+			"conflict_of_interest": "None",
+			"notes": []
+		},
+		{
+			"uuid": "F6G7H8I9J0K1L2M3",
+			"openalex_id": "W3201266212",
+			"title": "Effectiveness of Covid-19 Vaccines against the B.1.617.2 (Delta) Variant",
+			"authors": [
+				"Jamie Lopez Bernal",
+				"Nick Andrews",
+				"Charlotte Gower",
+				"Eileen Gallagher"
+			],
+			"year": 2021,
+			"link": "https://doi.org/10.1056/NEJMoa2108891",
+			"journal": {
+				"id": "S62468778",
+				"retracted": false
+			},
+			"citations": 4087,
+			"results": {
+				"consensus": "no_consensus",
+				"conclusion": "no",
+				"indirect": true
+			},
+			"quote": "Only modest differences in vaccine effectiveness were noted with the delta variant as compared with the alpha variant after the receipt of two vaccine doses",
+			"type": "CohortStudy",
+			"blinding": "None",
+			"sample_size": 19109,
+			"p_value": "NotApplicable",
+			"conflict_of_interest": "None",
+			"notes": []
+		},
+		{
+			"uuid": "G7H8I9J0K1L2M3N4",
+			"openalex_id": "W3121007144",
+			"title": "Safety and Efficacy of the BNT162b2 mRNA Covid-19 Vaccine",
+			"authors": [
+				"Fernando P. Polack",
+				"Stephen J. Thomas",
+				"Nicholas Kitchin",
+				"Judith Absalon"
+			],
+			"year": 2020,
+			"link": "https://doi.org/10.1056/NEJMoa2034577",
+			"journal": {
+				"id": "S62468778",
+				"retracted": false
+			},
+			"citations": 17834,
+			"results": {
+				"consensus": "no_consensus",
+				"conclusion": "no",
+				"indirect": false
+			},
+			"quote": "A two-dose regimen of BNT162b2 conferred 95% protection against Covid-19 [...] Safety over a median of 2 months was similar to that of other viral vaccines",
+			"type": "RandomizedControlledTrial",
+			"blinding": "Double",
+			"sample_size": 43548,
+			"p_value": "NotApplicable",
+			"conflict_of_interest": "None",
+			"notes": []
+		},
+		{
+			"uuid": "H8I9J0K1L2M3N4O5",
+			"openalex_id": "W3125066039",
+			"title": "Efficacy and Safety of the mRNA-1273 SARS-CoV-2 Vaccine",
+			"authors": [
+				"Lindsey R. Baden",
+				"Hana M. El Sahly",
+				"Brandon Essink",
+				"Karen Kotloff"
+			],
+			"year": 2021,
+			"link": "https://doi.org/10.1056/NEJMoa2035389",
+			"journal": {
+				"id": "S62468778",
+				"retracted": false
+			},
+			"citations": 9328,
+			"results": {
+				"consensus": "no_consensus",
+				"conclusion": "no",
+				"indirect": false
+			},
+			"quote": "The mRNA-1273 vaccine showed 94.1% efficacy at preventing Covid-19 illness, including severe disease. Aside from transient local and systemic reactions, no safety concerns were identified",
+			"type": "RandomizedControlledTrial",
+			"blinding": "Double",
+			"sample_size": 30420,
+			"p_value": "NotApplicable",
+			"conflict_of_interest": "None",
+			"notes": []
+		},
+		{
+			"uuid": "I9J0K1L2M3N4O5P6",
+			"openalex_id": "W4229279925",
+			"title": "Association of COVID-19 Vaccination With Risk for Incident Diabetes After COVID-19 Infection",
+			"authors": [
+				"Alan C. Kwan",
+				"Joseph E. Ebinger",
+				"Gabriela Botting",
+				"Jennifer E. Van Eyk"
+			],
+			"year": 2023,
+			"link": "https://doi.org/10.1001/jamanetworkopen.2023.0787",
+			"journal": {
+				"id": "S4210217848",
+				"retracted": false
+			},
+			"citations": 107,
+			"results": {
+				"consensus": "no_consensus",
+				"conclusion": "no",
+				"indirect": true
+			},
+			"quote": "COVID-19 vaccination prior to infection was associated with decreased risk of new diabetes diagnosis [...] These findings suggest that vaccination may reduce the risk of long COVID\u2013associated sequelae",
+			"type": "CohortStudy",
+			"blinding": "None",
+			"sample_size": 23709,
+			"p_value": "NotApplicable",
+			"conflict_of_interest": "None",
+			"notes": []
+		},
+		{
+			"uuid": "J0K1L2M3N4O5P6Q7",
+			"openalex_id": "W4313081895",
+			"title": "Effectiveness of BNT162b2 and mRNA-1273 covid-19 vaccines against symptomatic SARS-CoV-2 infection and severe covid-19 outcomes in Ontario, Canada: test negative design study",
+			"authors": [
+				"Hannah Chung",
+				"Sharifa Nasreen",
+				"Sarah A. Buchan",
+				"Jeffrey C. Kwong"
+			],
+			"year": 2021,
+			"link": "https://doi.org/10.1136/bmj.n1943",
+			"journal": {
+				"id": "S4394735789",
+				"retracted": false
+			},
+			"citations": 535,
+			"results": {
+				"consensus": "no_consensus",
+				"conclusion": "no",
+				"indirect": true
+			},
+			"quote": "The BNT162b2 and mRNA-1273 vaccines were highly effective in preventing symptomatic SARS-CoV-2 infection and severe covid-19 outcomes in a real world setting",
+			"type": "CaseControlStudy",
+			"blinding": "None",
+			"sample_size": 324033,
+			"p_value": "NotApplicable",
+			"conflict_of_interest": "None",
+			"notes": []
+		},
+		{
+			"uuid": "K1L2M3N4O5P6Q7R8",
+			"openalex_id": "W4210991833",
+			"title": "Myocarditis after Covid-19 mRNA Vaccination",
+			"authors": [
+				"Matthew E. Oster",
+				"David K. Shay",
+				"John R. Su",
+				"Jane Gould"
+			],
+			"year": 2022,
+			"link": "https://doi.org/10.1056/NEJMoa2110737",
+			"journal": {
+				"id": "S62468778",
+				"retracted": false
+			},
+			"citations": 869,
+			"results": {
+				"consensus": "no_consensus",
+				"conclusion": "no_but_mixed_results",
+				"indirect": false
+			},
+			"quote": "Myocarditis [...] that occurred in association with Covid-19 mRNA vaccination was mild and resolved quickly in most patients [...] The long-term clinical outcomes remain unknown",
+			"type": "CaseControlStudy",
+			"blinding": "None",
+			"sample_size": 826,
+			"p_value": "NotApplicable",
+			"conflict_of_interest": "None",
+			"notes": []
+		},
+		{
+			"uuid": "L2M3N4O5P6Q7R8S9",
+			"openalex_id": "W4285814939",
+			"title": "Risk of Myocarditis After Sequential Doses of COVID-19 Vaccine and SARS-CoV-2 Infection by Age and Sex",
+			"authors": [
+				"Martina Patone",
+				"Xue W. Mei",
+				"Lahiru Handunnetthi",
+				"Carol A. C. Coupland"
+			],
+			"year": 2022,
+			"link": "https://doi.org/10.1161/CIRCULATIONAHA.122.059970",
+			"journal": {
+				"id": "S116251202",
+				"retracted": false
+			},
+			"citations": 445,
+			"results": {
+				"consensus": "no_consensus",
+				"conclusion": "no_but_mixed_results",
+				"indirect": false
+			},
+			"quote": "In summary, the risk of hospital admission or death from myocarditis is greater following COVID-19 infection than following vaccination [...] and remains modest following sequential doses of mRNA vaccines including the third booster dose",
+			"type": "CohortStudy",
+			"blinding": "None",
+			"sample_size": 42842345,
+			"p_value": "NotApplicable",
+			"conflict_of_interest": "None",
+			"notes": []
+		},
+		{
+			"uuid": "M3N4O5P6Q7R8S9T0",
+			"openalex_id": "W4388665007",
+			"title": "COVID-19 vaccine safety in adolescents aged 12\u201317 years \u2013 United States, December 14, 2020\u2013July 16, 2021",
+			"authors": [
+				"Anne M. Hause",
+				"Julianne Gee",
+				"Emily R. Smith",
+				"John R. Su"
+			],
+			"year": 2021,
+			"link": "https://doi.org/10.15585/mmwr.mm7031e1",
+			"journal": {
+				"id": "S183158886",
+				"retracted": false
+			},
+			"citations": 418,
+			"results": {
+				"consensus": "no_consensus",
+				"conclusion": "no",
+				"indirect": false
+			},
+			"quote": "The Vaccine Adverse Event Reporting System [...] did not detect any new or unexpected patterns of adverse events following COVID-19 vaccination in adolescents",
+			"type": "CohortStudy",
+			"blinding": "None",
+			"sample_size": 8900000,
+			"p_value": "NotApplicable",
+			"conflict_of_interest": "None",
+			"notes": []
+		},
+		{
+			"uuid": "N4O5P6Q7R8S9T0U1",
+			"openalex_id": "W4281618542",
+			"title": "Thrombosis with Thrombocytopenia Syndrome Following COVID-19 Vaccination",
+			"authors": [
+				"Eloise J. Busby",
+				"Samantha C. L. Lau",
+				"Celia C. M. M. de Putter",
+				"Paula H. B. Bolton-Maggs"
+			],
+			"year": 2022,
+			"link": "https://doi.org/10.1016/j.amjmed.2022.03.006",
+			"journal": {
+				"id": "S186920367",
+				"retracted": false
+			},
+			"citations": 96,
+			"results": {
+				"consensus": "no_consensus",
+				"conclusion": "no_but_mixed_results",
+				"indirect": false
+			},
+			"quote": "TTS [Thrombosis with Thrombocytopenia Syndrome] is a rare but important complication of vaccination with the adenoviral vector COVID-19 vaccines [...] The risk of TTS needs to be balanced against the very significant morbidity and mortality of COVID-19",
+			"review": {
+				"type": "NarrativeReview",
+				"reviews": false,
+				"estimate": true,
+				"count": 70,
+				"subpart": false
+			},
+			"type": "DiverseObservationalStudies",
+			"blinding": "None",
+			"sample_size": "NotSpecified",
+			"p_value": "NotApplicable",
+			"conflict_of_interest": "None",
+			"notes": []
+		},
+		{
+			"uuid": "O5P6Q7R8S9T0U1V2",
+			"openalex_id": "W4287692177",
+			"title": "Myocarditis Cases Reported After mRNA-Based COVID-19 Vaccination in the US From December 2020 to August 2021",
+			"authors": [
+				"Matthew E. Oster",
+				"David K. Shay",
+				"John R. Su",
+				"Jane Gould"
+			],
+			"year": 2022,
+			"link": "https://doi.org/10.1001/jama.2021.24110",
+			"journal": {
+				"id": "S172573765",
+				"retracted": false
+			},
+			"citations": 1066,
+			"results": {
+				"consensus": "no_consensus",
+				"conclusion": "no_but_mixed_results",
+				"indirect": false
+			},
+			"quote": "Based on passive surveillance reporting in the US, the risk of myocarditis after receiving mRNA-based COVID-19 vaccines was increased across multiple age and sex strata and was highest after the second vaccination dose in adolescent males and young men",
+			"type": "CohortStudy",
+			"blinding": "None",
+			"sample_size": 192405448,
+			"p_value": "NotApplicable",
+			"conflict_of_interest": "None",
+			"notes": []
+		},
+		{
+			"uuid": "P6Q7R8S9T0U1V2W3",
+			"openalex_id": "W4235148607",
+			"title": "The Effect of Vaccination on Transmission of SARS-CoV-2: An Observational Study of 100k Vaccinated and Unvaccinated UK Healthcare Workers",
+			"authors": [
+				"Philippa C. Matthews",
+				"Koen B. Pouwels",
+				"Ruth Studley",
+				"Nicole Stoesser"
+			],
+			"year": 2022,
+			"link": "https://doi.org/10.1101/2021.10.13.21264960",
+			"journal": {
+				"id": "NotFound",
+				"retracted": false
+			},
+			"citations": 92,
+			"results": {
+				"consensus": "no_consensus",
+				"conclusion": "no",
+				"indirect": true
+			},
+			"quote": "Vaccination reduces transmission of SARS-CoV-2, measured both as secondary attack rate and as viral load",
+			"type": "CohortStudy",
+			"blinding": "None",
+			"sample_size": 100000,
+			"p_value": "NotApplicable",
+			"conflict_of_interest": "None",
+			"notes": []
+		},
+		{
+			"uuid": "Q7R8S9T0U1V2W3X4",
+			"openalex_id": "W4388666534",
+			"title": "Association Between mRNA Vaccination and COVID-19 Hospitalization and Disease Severity",
+			"authors": [
+				"Mark W. Tenforde",
+				"Wesley H. Self",
+				"Manjusha Gaglani",
+				"Adit A. Ginde"
+			],
+			"year": 2021,
+			"link": "https://doi.org/10.1001/jama.2021.19499",
+			"journal": {
+				"id": "S172573765",
+				"retracted": false
+			},
+			"citations": 666,
+			"results": {
+				"consensus": "no_consensus",
+				"conclusion": "no",
+				"indirect": true
+			},
+			"quote": "Receipt of 2 doses of an mRNA COVID-19 vaccine was associated with reduced risk of COVID-19 hospitalization and in-hospital death",
+			"type": "CaseControlStudy",
+			"blinding": "None",
+			"sample_size": 4513,
+			"p_value": "NotApplicable",
+			"conflict_of_interest": "None",
+			"notes": []
+		},
+		{
+			"uuid": "R8S9T0U1V2W3X4Y5",
+			"openalex_id": "W3164203559",
+			"title": "Safety and Efficacy of the ChAdOx1 nCoV-19 Vaccine (AZD1222) against SARS-CoV-2: an interim analysis of four randomised controlled trials in Brazil, South Africa, and the UK",
+			"authors": [
+				"Merryn Voysey",
+				"Sue Ann Costa Clemens",
+				"Shabir A. Madhi",
+				"Lily Y. Weckx"
+			],
+			"year": 2021,
+			"link": "https://doi.org/10.1016/S0140-6736(20)32661-1",
+			"journal": {
+				"id": "S49861241",
+				"retracted": false
+			},
+			"citations": 10059,
+			"results": {
+				"consensus": "no_consensus",
+				"conclusion": "no",
+				"indirect": false
+			},
+			"quote": "ChAdOx1 nCoV-19 has an acceptable safety profile and has been found to be efficacious against symptomatic COVID-19",
+			"type": "RandomizedControlledTrial",
+			"blinding": "Double",
+			"sample_size": 11636,
+			"p_value": "NotApplicable",
+			"conflict_of_interest": "None",
+			"notes": []
+		},
+		{
+			"uuid": "S9T0U1V2W3X4Y5Z6",
+			"openalex_id": "W4313335436",
+			"title": "Effectiveness of COVID-19 vaccines over a 9-month period in North Carolina",
+			"authors": [
+				"Danyu Lin",
+				"Yunji Xu",
+				"Yangjianchen Xu",
+				"Donglin Zeng"
+			],
+			"year": 2022,
+			"link": "https://doi.org/10.1016/j.vaccine.2022.04.018",
+			"journal": {
+				"id": "S27359860",
+				"retracted": false
+			},
+			"citations": 104,
+			"results": {
+				"consensus": "no_consensus",
+				"conclusion": "no",
+				"indirect": true
+			},
+			"quote": "All three vaccines provided strong and sustained protection against COVID-19-related death",
+			"type": "CohortStudy",
+			"blinding": "None",
+			"sample_size": 10667174,
+			"p_value": "NotApplicable",
+			"conflict_of_interest": "None",
+			"notes": []
+		},
+		{
+			"uuid": "T0U1V2W3X4Y5Z6A7",
+			"openalex_id": "W4285576234",
+			"title": "Safety of COVID-19 vaccines administered in the EU: Should we be concerned?",
+			"authors": [
+				"Sabrina Kraus",
+				"Riccardo Sch\u00f6nbohm",
+				"Viviane Linn\u00e9r",
+				"Hubert G. Leufkens"
+			],
+			"year": 2022,
+			"link": "https://doi.org/10.1016/j.vaccine.2022.07.011",
+			"journal": {
+				"id": "S27359860",
+				"retracted": false
+			},
+			"citations": 39,
+			"results": {
+				"consensus": "no_consensus",
+				"conclusion": "no",
+				"indirect": false
+			},
+			"quote": "While some safety concerns became apparent, the overall safety profile of all COVID-19 vaccines is considered positive, particularly when balanced against the benefits of these vaccines",
+			"review": {
+				"type": "NarrativeReview",
+				"reviews": false,
+				"estimate": true,
+				"count": 40,
+				"subpart": false
+			},
+			"type": "DiverseObservationalStudies",
+			"blinding": "None",
+			"sample_size": "NotSpecified",
+			"p_value": "NotApplicable",
+			"conflict_of_interest": "None",
+			"notes": []
+		}
+	]
+}
