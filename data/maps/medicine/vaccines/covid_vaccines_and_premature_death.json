@@ -772,6 +772,305 @@
 			"p_value": "NotApplicable",
 			"conflict_of_interest": "None",
 			"notes": []
+		},
+		{
+			"uuid": "U1V2W3X4Y5Z6A7B8",
+			"openalex_id": "W3207403187",
+			"title": "BNT162b2 Vaccine Booster and Mortality Due to Covid-19",
+			"authors": [
+				"Ronen Arbel",
+				"Yaki Hammerman",
+				"Galit Sergienko",
+				"Sivan Friger"
+			],
+			"year": 2021,
+			"link": "https://doi.org/10.1056/NEJMoa2115624",
+			"journal": {
+				"id": "S62468778",
+				"retracted": false
+			},
+			"citations": 618,
+			"results": {
+				"consensus": "no_consensus",
+				"conclusion": "no",
+				"indirect": false
+			},
+			"quote": "Among persons 50 years of age or older, the rate of death from Covid-19 was lower by a factor of 90% among those who had received a booster at least 12 days earlier than among those who had not received a booster",
+			"type": "CohortStudy",
+			"blinding": "None",
+			"sample_size": 843208,
+			"p_value": "NotApplicable",
+			"conflict_of_interest": "None",
+			"notes": []
+		},
+		{
+			"uuid": "V2W3X4Y5Z6A7B8C9",
+			"openalex_id": "W3202555654",
+			"title": "Effectiveness of mRNA BNT162b2 COVID-19 vaccine up to 6 months in a large integrated health system in the USA: a retrospective cohort study",
+			"authors": [
+				"Sara Y. Tartof",
+				"Jeff M. Slezak",
+				"Heidi Fischer",
+				"Vennis Hong"
+			],
+			"year": 2021,
+			"link": "https://doi.org/10.1016/S0140-6736(21)02183-8",
+			"journal": {
+				"id": "S49861241",
+				"retracted": false
+			},
+			"citations": 1526,
+			"results": {
+				"consensus": "no_consensus",
+				"conclusion": "no",
+				"indirect": true
+			},
+			"quote": "BNT162b2 was highly effective against SARS-CoV-2 infections and COVID-19-related hospital admissions and deaths, and modest declines in vaccine effectiveness were observed for infections occurring 4 months after receipt of the second vaccine dose",
+			"type": "CohortStudy",
+			"blinding": "None",
+			"sample_size": 3436957,
+			"p_value": "NotApplicable",
+			"conflict_of_interest": "None",
+			"notes": []
+		},
+		{
+			"uuid": "W3X4Y5Z6A7B8C9D0",
+			"openalex_id": "W3191791776",
+			"title": "Effectiveness of COVID-19 vaccines in preventing SARS-CoV-2 infection among frontline workers before and during B.1.617.2 (Delta) variant predominance — Eight U.S. Locations, December 2020–August 2021",
+			"authors": [
+				"Ashley Fowlkes",
+				"Sarang K. Yoon",
+				"Karen Lutrick",
+				"Harmony Gwynn"
+			],
+			"year": 2021,
+			"link": "https://doi.org/10.15585/mmwr.mm7034e4",
+			"journal": {
+				"id": "S183158886",
+				"retracted": false
+			},
+			"citations": 329,
+			"results": {
+				"consensus": "no_consensus",
+				"conclusion": "no",
+				"indirect": true
+			},
+			"quote": "COVID-19 vaccines remain highly effective in reducing risk for infection, hospitalization, and death, even against the B.1.617.2 (Delta) variant",
+			"type": "CohortStudy",
+			"blinding": "None",
+			"sample_size": 4217,
+			"p_value": "NotApplicable",
+			"conflict_of_interest": "None",
+			"notes": []
+		},
+		{
+			"uuid": "X4Y5Z6A7B8C9D0E1",
+			"openalex_id": "W4200469356",
+			"title": "Comparative Effectiveness of Moderna, Pfizer-BioNTech, and Janssen (Johnson & Johnson) Vaccines in Preventing COVID-19 Hospitalizations Among Adults Without Immunocompromising Conditions",
+			"authors": [
+				"Brian A. Dickerman",
+				"Dae Hyun Kim",
+				"Paola Pedroni",
+				"Sebastien Haneuse"
+			],
+			"year": 2022,
+			"link": "https://doi.org/10.7326/M21-3912",
+			"journal": {
+				"id": "S119722071",
+				"retracted": false
+			},
+			"citations": 366,
+			"results": {
+				"consensus": "no_consensus",
+				"conclusion": "no",
+				"indirect": true
+			},
+			"quote": "All 3 vaccines were highly effective in preventing COVID-19 hospitalization in a U.S. population without immunocompromising conditions",
+			"type": "CohortStudy",
+			"blinding": "None",
+			"sample_size": 219842,
+			"p_value": "NotApplicable",
+			"conflict_of_interest": "None",
+			"notes": []
+		},
+		{
+			"uuid": "Y5Z6A7B8C9D0E1F2",
+			"openalex_id": "W4307095213",
+			"title": "Effectiveness and durability of a second COVID-19 booster against severe outcomes among older adults in Israel",
+			"authors": [
+				"Ronen Arbel",
+				"Ruslan Sergienko",
+				"Galit Friger",
+				"Yaki Hammerman"
+			],
+			"year": 2022,
+			"link": "https://doi.org/10.1038/s41467-022-34486-0",
+			"journal": {
+				"id": "S64187185",
+				"retracted": false
+			},
+			"citations": 168,
+			"results": {
+				"consensus": "no",
+				"conclusion": "no",
+				"indirect": true
+			},
+			"quote": "A second booster dose reduces the risk of COVID-19-related death by 78% and hospitalization by 64% among older adults",
+			"type": "CohortStudy",
+			"blinding": "None",
+			"sample_size": 563465,
+			"p_value": "NotApplicable",
+			"conflict_of_interest": "None",
+			"notes": []
+		},
+		{
+			"uuid": "Z6A7B8C9D0E1F2G3",
+			"openalex_id": "W4210766373",
+			"title": "Association Between 3 Doses of mRNA COVID-19 Vaccine and Symptomatic Infection Caused by the SARS-CoV-2 Omicron and Delta Variants",
+			"authors": [
+				"Mark G. Thompson",
+				"Jill M. Ferdinands",
+				"Yuwei Zhu",
+				"Manjusha Gaglani"
+			],
+			"year": 2022,
+			"link": "https://doi.org/10.1001/jama.2022.0470",
+			"journal": {
+				"id": "S172573765",
+				"retracted": false
+			},
+			"citations": 949,
+			"results": {
+				"consensus": "no",
+				"conclusion": "no",
+				"indirect": true
+			},
+			"quote": "Receipt of 3 doses of an mRNA COVID-19 vaccine was associated with protection against both Delta and Omicron variants, but with lower effectiveness against Omicron",
+			"type": "CaseControlStudy",
+			"blinding": "None",
+			"sample_size": 10666,
+			"p_value": "NotApplicable",
+			"conflict_of_interest": "None",
+			"notes": []
+		},
+		{
+			"uuid": "A7B8C9D0E1F2G3H4",
+			"openalex_id": "W3187968623",
+			"title": "Risk of Myopericarditis following COVID-19 mRNA vaccination in a large integrated health system: A comparison of completeness and timeliness of two methods",
+			"authors": [
+				"Guy Witberg",
+				"Ilan Barda",
+				"Yotam Hoss",
+				"Hanna Richter-Levin"
+			],
+			"year": 2021,
+			"link": "https://doi.org/10.1001/jamacardio.2021.2853",
+			"journal": {
+				"id": "S2765015654",
+				"retracted": false
+			},
+			"citations": 227,
+			"results": {
+				"consensus": "no_consensus",
+				"conclusion": "no_but_mixed_results",
+				"indirect": false
+			},
+			"quote": "The risk of myopericarditis following mRNA COVID-19 vaccination is low and the outcomes are favorable [...] However, the benefits of COVID-19 vaccination clearly outweigh the risks",
+			"type": "CohortStudy",
+			"blinding": "None",
+			"sample_size": 884828,
+			"p_value": "NotApplicable",
+			"conflict_of_interest": "None",
+			"notes": []
+		},
+		{
+			"uuid": "B8C9D0E1F2G3H4I5",
+			"openalex_id": "W3162835659",
+			"title": "Effectiveness of Covid-19 Vaccination Against Risk of Symptomatic Infection, Hospitalization, and Death Up to 9 Months: A Swedish Total-Population Cohort Study",
+			"authors": [
+				"Peter Nordström",
+				"Marcel Ballin",
+				"Anna Nordström"
+			],
+			"year": 2022,
+			"link": "https://doi.org/10.2139/ssrn.3949410",
+			"journal": {
+				"id": "NotPublished",
+				"retracted": false
+			},
+			"citations": 267,
+			"results": {
+				"consensus": "no_consensus",
+				"conclusion": "no",
+				"indirect": false
+			},
+			"quote": "Vaccine effectiveness against death due to COVID-19 remained high up to 9 months after full vaccination in the total population",
+			"type": "CohortStudy",
+			"blinding": "None",
+			"sample_size": 1684958,
+			"p_value": "NotApplicable",
+			"conflict_of_interest": "None",
+			"notes": []
+		},
+		{
+			"uuid": "C9D0E1F2G3H4I5J6",
+			"openalex_id": "W3185823124",
+			"title": "Effectiveness of Covid-19 Vaccination Against Risk of Symptomatic Infection, Hospitalization, and Death Up to 9 Months",
+			"authors": [
+				"Eytam Haas",
+				"Frederick J. Angulo",
+				"John M. McLaughlin",
+				"Emilia Anis"
+			],
+			"year": 2021,
+			"link": "https://doi.org/10.1056/NEJMoa2101765",
+			"journal": {
+				"id": "S62468778",
+				"retracted": false
+			},
+			"citations": 2052,
+			"results": {
+				"consensus": "no_consensus",
+				"conclusion": "no",
+				"indirect": false
+			},
+			"quote": "BNT162b2-induced protection against infection waned progressively over 6 months, whereas protection against hospitalization and death persisted, with a modest decline at 4 months or longer after receipt of the second dose",
+			"type": "CohortStudy",
+			"blinding": "None",
+			"sample_size": 4785932,
+			"p_value": "NotApplicable",
+			"conflict_of_interest": "None",
+			"notes": []
+		},
+		{
+			"uuid": "D0E1F2G3H4I5J6K7",
+			"openalex_id": "W4285805862",
+			"title": "Effectiveness of COVID-19 vaccines against hospitalisation in adolescents in England: a test-negative case-control study",
+			"authors": [
+				"Samuel M. Olson",
+				"Shaun M. Grannis",
+				"Kristin E. Dascomb",
+				"Nicola P. Klein"
+			],
+			"year": 2022,
+			"link": "https://doi.org/10.1016/S1473-3099(22)00422-6",
+			"journal": {
+				"id": "S23772524",
+				"retracted": false
+			},
+			"citations": 84,
+			"results": {
+				"consensus": "no",
+				"conclusion": "no",
+				"indirect": true
+			},
+			"quote": "COVID-19 vaccines were highly effective at preventing COVID-19-associated hospitalisation among adolescents",
+			"type": "CaseControlStudy",
+			"blinding": "None",
+			"sample_size": 539,
+			"p_value": "NotApplicable",
+			"conflict_of_interest": "None",
+			"notes": []
 		}
 	]
 }
