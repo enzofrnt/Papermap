@@ -1,6 +1,6 @@
 {
 	"draft": true,
-	"emoji": "🤒",
+	"emoji": "\ud83e\udd12",
 	"question": {
 		"short": "Do COVID-19 vaccines prevent symptoms or death?",
 		"long": "Do COVID-19 vaccines prevent symptoms or death?"
@@ -14,7 +14,7 @@
 	],
 	"consensus": {
 		"no_consensus": {
-			"emoji": "🤷",
+			"emoji": "\ud83e\udd37",
 			"text": "No consensus yet",
 			"description": "The literature has not yet reached a consensus on the effects of COVID-19 vaccines on symptoms or death",
 			"color": "Gray",
@@ -24,7 +24,7 @@
 			]
 		},
 		"no": {
-			"emoji": "👎",
+			"emoji": "\ud83d\udc4e",
 			"text": "No",
 			"description": "The literature suggests that COVID-19 vaccines do not prevent symptoms or death",
 			"color": "Red",
@@ -34,7 +34,7 @@
 			]
 		},
 		"towards_no": {
-			"emoji": "⬅️",
+			"emoji": "\u2b05\ufe0f",
 			"text": "Towards no",
 			"description": "The literature suggests that COVID-19 vaccines probably don't prevent symptoms or death, but more research is needed",
 			"color": "Red1H",
@@ -44,7 +44,7 @@
 			]
 		},
 		"towards_yes": {
-			"emoji": "➡️",
+			"emoji": "\u27a1\ufe0f",
 			"text": "Towards yes",
 			"description": "The literature suggests that COVID-19 vaccines likely prevent symptoms or death, but more research is needed",
 			"color": "Green1H",
@@ -54,7 +54,7 @@
 			]
 		},
 		"yes": {
-			"emoji": "👍",
+			"emoji": "\ud83d\udc4d",
 			"text": "Yes",
 			"description": "The literature suggests that COVID-19 vaccines prevent symptoms or death",
 			"color": "Green",
@@ -93,56 +93,56 @@
 	"conclusions": {
 		"no": {
 			"group": "no",
-			"emoji": "👎",
+			"emoji": "\ud83d\udc4e",
 			"text": "No",
 			"description": "The results of the paper show no significant effect of the COVID-19 vaccines evaluated on symptoms or death",
 			"p_value": false
 		},
 		"no_unlike_literature": {
 			"group": "no_but",
-			"emoji": "↩️",
+			"emoji": "\u21a9\ufe0f",
 			"text": "No unlike literature",
 			"description": "The results of the paper show no significant effect of the COVID-19 vaccines evaluated on symptoms or death, unlike what is reported in the literature",
 			"p_value": false
 		},
 		"no_but_mixed_results": {
 			"group": "no_but",
-			"emoji": "🔀",
+			"emoji": "\ud83d\udd00",
 			"text": "No but mixed results",
 			"description": "The results of the paper show no significant overall effect of the COVID-19 vaccines evaluated on symptoms or death, but there are mixed results on specific cases",
 			"p_value": false
 		},
 		"maybe": {
 			"group": "maybe",
-			"emoji": "🤷",
+			"emoji": "\ud83e\udd37",
 			"text": "Maybe",
 			"description": "The results of the paper suggest that the COVID-19 vaccines evaluated might have an effect on symptoms or death, but the evidence is not strong enough to conclude",
 			"p_value": false
 		},
 		"yes_but_low_confidence": {
 			"group": "yes_but",
-			"emoji": "🤔",
+			"emoji": "\ud83e\udd14",
 			"text": "Yes but low confidence",
 			"description": "The results of the paper suggest that the COVID-19 vaccines evaluated may prevent symptoms or death, but the evidence is not strong",
 			"p_value": true
 		},
 		"yes_but_small_effect": {
 			"group": "yes_but",
-			"emoji": "🤏",
+			"emoji": "\ud83e\udd0f",
 			"text": "Yes but small effect",
 			"description": "The results of the paper suggest that the COVID-19 vaccines evaluated may have a small effect on symptoms or death",
 			"p_value": true
 		},
 		"yes_unlike_literature": {
 			"group": "yes_but",
-			"emoji": "↪️",
+			"emoji": "\u21aa\ufe0f",
 			"text": "Yes unlike literature",
 			"description": "The results of the paper suggest that the COVID-19 vaccines evaluated may prevent symptoms or death, unlike what is reported in the literature",
 			"p_value": true
 		},
 		"yes": {
 			"group": "yes",
-			"emoji": "👍",
+			"emoji": "\ud83d\udc4d",
 			"text": "Yes",
 			"description": "The results of the paper suggest that the COVID-19 vaccines evaluated prevent symptoms or death",
 			"p_value": true
@@ -179,13 +179,13 @@
 				"indirect": false
 			},
 			"quote": "A two-dose regimen of BNT162b2 conferred 95% protection against Covid-19 [...] The observed high vaccine efficacy occurred across subgroups defined by age, sex, race, ethnicity, baseline body-mass index, and the presence of coexisting conditions",
-			"review": {
-				"type": "NotALiteratureReview"
-			},
 			"type": "RandomizedControlledTrial",
 			"blinding": "ParticipantsAndInvestigators",
 			"sample_size": 43548,
-			"p_value": 0.001,
+			"p_value": {
+				"value": 0.001,
+				"less_than": true
+			},
 			"conflict_of_interest": "SomeLinks",
 			"notes": []
 		},
@@ -212,13 +212,13 @@
 				"indirect": false
 			},
 			"quote": "The mRNA-1273 vaccine showed 94.1% efficacy at preventing Covid-19 illness, including severe disease. Aside from transient local and systemic reactions, no safety concerns were identified",
-			"review": {
-				"type": "NotALiteratureReview"
-			},
 			"type": "RandomizedControlledTrial",
 			"blinding": "ParticipantsAndInvestigators",
 			"sample_size": 30420,
-			"p_value": 0.001,
+			"p_value": {
+				"value": 0.001,
+				"less_than": true
+			},
 			"conflict_of_interest": "SomeLinks",
 			"notes": []
 		},
@@ -245,13 +245,13 @@
 				"indirect": false
 			},
 			"quote": "ChAdOx1 nCoV-19 has an acceptable safety profile and has been found to be efficacious against symptomatic COVID-19 in this interim analysis of ongoing clinical trials",
-			"review": {
-				"type": "NotALiteratureReview"
-			},
 			"type": "RandomizedControlledTrial",
 			"blinding": "ParticipantsAndInvestigators",
 			"sample_size": 11636,
-			"p_value": 0.001,
+			"p_value": {
+				"value": 0.001,
+				"less_than": true
+			},
 			"conflict_of_interest": "SomeLinks",
 			"notes": []
 		},
@@ -263,7 +263,7 @@
 				"Jerald Sadoff",
 				"Glenda Gray",
 				"An Vandebosch",
-				"Vicky Cárdenas"
+				"Vicky C\u00e1rdenas"
 			],
 			"year": 2021,
 			"link": "https://doi.org/10.1056/NEJMoa2101544",
@@ -278,13 +278,13 @@
 				"indirect": false
 			},
 			"quote": "A single dose of Ad26.COV2.S vaccine provided protection against both moderate and severe-critical COVID-19 [...] Efficacy against severe-critical disease was 73.1% in the United States",
-			"review": {
-				"type": "NotALiteratureReview"
-			},
 			"type": "RandomizedControlledTrial",
 			"blinding": "ParticipantsAndInvestigators",
 			"sample_size": 43783,
-			"p_value": 0.001,
+			"p_value": {
+				"value": 0.001,
+				"less_than": true
+			},
 			"conflict_of_interest": "SomeLinks",
 			"notes": []
 		},
@@ -310,14 +310,14 @@
 				"conclusion": "yes",
 				"indirect": false
 			},
-			"quote": "This study in a nationwide mass vaccination setting suggests that the BNT162b2 mRNA vaccine is effective for a wide range of Covid-19–related outcomes [...] Estimated vaccine effectiveness ranged from 46% to 92% 14 to 20 days after the first dose and from 87% to 92% 7 days or more after the second dose",
-			"review": {
-				"type": "NotALiteratureReview"
-			},
+			"quote": "This study in a nationwide mass vaccination setting suggests that the BNT162b2 mRNA vaccine is effective for a wide range of Covid-19\u2013related outcomes [...] Estimated vaccine effectiveness ranged from 46% to 92% 14 to 20 days after the first dose and from 87% to 92% 7 days or more after the second dose",
 			"type": "CohortStudy",
 			"blinding": "None",
 			"sample_size": 596618,
-			"p_value": 0.001,
+			"p_value": {
+				"value": 0.001,
+				"less_than": true
+			},
 			"conflict_of_interest": "None",
 			"notes": []
 		},
@@ -344,20 +344,20 @@
 				"indirect": false
 			},
 			"quote": "Two doses of BNT162b2 are highly effective across all age groups in preventing symptomatic and asymptomatic SARS-CoV-2 infections and COVID-19-related hospitalisations, severe disease, and death, including those caused by the B.1.1.7 SARS-CoV-2 variant",
-			"review": {
-				"type": "NotALiteratureReview"
-			},
 			"type": "EcologicalStudy",
 			"blinding": "None",
 			"sample_size": 5700000,
-			"p_value": 0.001,
+			"p_value": {
+				"value": 0.001,
+				"less_than": true
+			},
 			"conflict_of_interest": "SomeLinks",
 			"notes": []
 		},
 		{
 			"uuid": "COVID_TENFORDE_2021",
 			"openalex_id": "W3181820867",
-			"title": "Effectiveness of Pfizer-BioNTech and Moderna Vaccines Against COVID-19 Among Hospitalized Adults Aged ≥65 Years — United States, January–March 2021",
+			"title": "Effectiveness of Pfizer-BioNTech and Moderna Vaccines Against COVID-19 Among Hospitalized Adults Aged \u226565 Years \u2014 United States, January\u2013March 2021",
 			"authors": [
 				"Mark W. Tenforde",
 				"Sara S. Kim",
@@ -376,14 +376,14 @@
 				"conclusion": "yes",
 				"indirect": false
 			},
-			"quote": "Findings from a multistate network of U.S. hospitals showed that mRNA COVID-19 vaccines were highly effective in preventing COVID-19–associated hospitalizations among adults aged ≥65 years. Vaccine effectiveness was 94% after full immunization",
-			"review": {
-				"type": "NotALiteratureReview"
-			},
+			"quote": "Findings from a multistate network of U.S. hospitals showed that mRNA COVID-19 vaccines were highly effective in preventing COVID-19\u2013associated hospitalizations among adults aged \u226565 years. Vaccine effectiveness was 94% after full immunization",
 			"type": "CaseControlStudy",
 			"blinding": "None",
 			"sample_size": 417,
-			"p_value": 0.001,
+			"p_value": {
+				"value": 0.001,
+				"less_than": true
+			},
 			"conflict_of_interest": "None",
 			"notes": []
 		},
@@ -400,7 +400,7 @@
 			"year": 2021,
 			"link": "https://doi.org/10.1101/2021.08.06.21261707",
 			"journal": {
-				"id": "NotInDatabase",
+				"id": "NotPublished",
 				"retracted": false
 			},
 			"citations": 350,
@@ -410,13 +410,13 @@
 				"indirect": false
 			},
 			"quote": "Both mRNA-1273 and BNT162b2 COVID-19 vaccines strongly protect against infection, COVID-19 related hospital admission and death. The vaccines were found to be highly effective during both the Alpha and Delta variant periods",
-			"review": {
-				"type": "NotALiteratureReview"
-			},
 			"type": "CohortStudy",
 			"blinding": "None",
 			"sample_size": 50000,
-			"p_value": 0.001,
+			"p_value": {
+				"value": 0.001,
+				"less_than": true
+			},
 			"conflict_of_interest": "None",
 			"notes": []
 		},
@@ -443,13 +443,13 @@
 				"indirect": false
 			},
 			"quote": "BNT162b2 is highly effective against SARS-CoV-2 infection and severe COVID-19, but effectiveness against infection wanes after 4 months. Effectiveness against severe COVID-19 remains high at 6 months",
-			"review": {
-				"type": "NotALiteratureReview"
-			},
 			"type": "CohortStudy",
 			"blinding": "None",
 			"sample_size": 3436957,
-			"p_value": 0.001,
+			"p_value": {
+				"value": 0.001,
+				"less_than": true
+			},
 			"conflict_of_interest": "None",
 			"notes": []
 		},
@@ -476,20 +476,20 @@
 				"indirect": false
 			},
 			"quote": "High vaccine efficacy against Covid-19 was observed after BNT162b2, with a vaccine efficacy of 91.3% through up to 6 months of follow-up. Efficacy was consistent across subgroups defined by age, sex, race, ethnicity, and underlying medical conditions",
-			"review": {
-				"type": "NotALiteratureReview"
-			},
 			"type": "RandomizedControlledTrial",
 			"blinding": "ParticipantsAndInvestigators",
 			"sample_size": 46307,
-			"p_value": 0.001,
+			"p_value": {
+				"value": 0.001,
+				"less_than": true
+			},
 			"conflict_of_interest": "SomeLinks",
 			"notes": []
 		},
 		{
 			"uuid": "COVID_THOMPSON_2021",
 			"openalex_id": "W3155715084",
-			"title": "Interim Estimates of Vaccine Effectiveness of BNT162b2 and mRNA-1273 COVID-19 Vaccines in Preventing SARS-CoV-2 Infection Among Health Care Personnel, First Responders, and Other Essential and Frontline Workers — Eight U.S. Locations, December 2020–March 2021",
+			"title": "Interim Estimates of Vaccine Effectiveness of BNT162b2 and mRNA-1273 COVID-19 Vaccines in Preventing SARS-CoV-2 Infection Among Health Care Personnel, First Responders, and Other Essential and Frontline Workers \u2014 Eight U.S. Locations, December 2020\u2013March 2021",
 			"authors": [
 				"Mark G. Thompson",
 				"Jefferey L. Burgess",
@@ -509,13 +509,13 @@
 				"indirect": false
 			},
 			"quote": "Following the second dose, vaccine effectiveness was 90% against SARS-CoV-2 infection. These findings demonstrate that mRNA COVID-19 vaccines can reduce the risk for SARS-CoV-2 infection, not just the risk for symptomatic disease",
-			"review": {
-				"type": "NotALiteratureReview"
-			},
 			"type": "CohortStudy",
 			"blinding": "None",
 			"sample_size": 3950,
-			"p_value": 0.001,
+			"p_value": {
+				"value": 0.001,
+				"less_than": true
+			},
 			"conflict_of_interest": "None",
 			"notes": []
 		},
@@ -542,13 +542,13 @@
 				"indirect": false
 			},
 			"quote": "Only modest differences in vaccine effectiveness were noted with the delta variant as compared with the alpha variant after the receipt of two vaccine doses. Absolute differences in vaccine effectiveness were more marked after the receipt of the first dose",
-			"review": {
-				"type": "NotALiteratureReview"
-			},
 			"type": "CaseControlStudy",
 			"blinding": "None",
 			"sample_size": 19109,
-			"p_value": 0.001,
+			"p_value": {
+				"value": 0.001,
+				"less_than": true
+			},
 			"conflict_of_interest": "None",
 			"notes": []
 		},
@@ -575,13 +575,13 @@
 				"indirect": false
 			},
 			"quote": "ChAdOx1 nCoV-19 showed efficacy against the B.1.1.7 variant, similar to that observed against previous variants [...] These findings indicate that vaccines could have a substantial effect on the course of the pandemic",
-			"review": {
-				"type": "NotALiteratureReview"
-			},
 			"type": "RandomizedControlledTrial",
 			"blinding": "ParticipantsAndInvestigators",
 			"sample_size": 8534,
-			"p_value": 0.01,
+			"p_value": {
+				"value": 0.01,
+				"less_than": true
+			},
 			"conflict_of_interest": "SomeLinks",
 			"notes": []
 		},
@@ -608,13 +608,13 @@
 				"indirect": false
 			},
 			"quote": "A third BNT162b2 dose provides substantial protection against severe COVID-19 outcomes among adults aged 60 years or older, compared with those who received two doses at least 5 months previously",
-			"review": {
-				"type": "NotALiteratureReview"
-			},
 			"type": "CohortStudy",
 			"blinding": "None",
 			"sample_size": 728321,
-			"p_value": 0.001,
+			"p_value": {
+				"value": 0.001,
+				"less_than": true
+			},
 			"conflict_of_interest": "None",
 			"notes": []
 		},
@@ -641,13 +641,13 @@
 				"indirect": false
 			},
 			"quote": "Among participants 50 years of age or older, the rate of death from Covid-19 was significantly lower among those who received a BNT162b2 booster vaccine than among those who did not receive a booster vaccine",
-			"review": {
-				"type": "NotALiteratureReview"
-			},
 			"type": "CohortStudy",
 			"blinding": "None",
 			"sample_size": 843208,
-			"p_value": 0.001,
+			"p_value": {
+				"value": 0.001,
+				"less_than": true
+			},
 			"conflict_of_interest": "None",
 			"notes": []
 		}
