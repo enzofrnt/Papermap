@@ -180,7 +180,7 @@
 			},
 			"quote": "A two-dose regimen of BNT162b2 conferred 95% protection against Covid-19 [...] The observed high vaccine efficacy occurred across subgroups defined by age, sex, race, ethnicity, baseline body-mass index, and the presence of coexisting conditions",
 			"type": "RandomizedControlledTrial",
-			"blinding": "ParticipantsAndInvestigators",
+			"blinding": "Double",
 			"sample_size": 43548,
 			"p_value": {
 				"value": 0.001,
@@ -213,7 +213,7 @@
 			},
 			"quote": "The mRNA-1273 vaccine showed 94.1% efficacy at preventing Covid-19 illness, including severe disease. Aside from transient local and systemic reactions, no safety concerns were identified",
 			"type": "RandomizedControlledTrial",
-			"blinding": "ParticipantsAndInvestigators",
+			"blinding": "Double",
 			"sample_size": 30420,
 			"p_value": {
 				"value": 0.001,
@@ -246,7 +246,7 @@
 			},
 			"quote": "ChAdOx1 nCoV-19 has an acceptable safety profile and has been found to be efficacious against symptomatic COVID-19 in this interim analysis of ongoing clinical trials",
 			"type": "RandomizedControlledTrial",
-			"blinding": "ParticipantsAndInvestigators",
+			"blinding": "Double",
 			"sample_size": 11636,
 			"p_value": {
 				"value": 0.001,
@@ -279,7 +279,7 @@
 			},
 			"quote": "A single dose of Ad26.COV2.S vaccine provided protection against both moderate and severe-critical COVID-19 [...] Efficacy against severe-critical disease was 73.1% in the United States",
 			"type": "RandomizedControlledTrial",
-			"blinding": "ParticipantsAndInvestigators",
+			"blinding": "Double",
 			"sample_size": 43783,
 			"p_value": {
 				"value": 0.001,
@@ -477,7 +477,7 @@
 			},
 			"quote": "High vaccine efficacy against Covid-19 was observed after BNT162b2, with a vaccine efficacy of 91.3% through up to 6 months of follow-up. Efficacy was consistent across subgroups defined by age, sex, race, ethnicity, and underlying medical conditions",
 			"type": "RandomizedControlledTrial",
-			"blinding": "ParticipantsAndInvestigators",
+			"blinding": "Double",
 			"sample_size": 46307,
 			"p_value": {
 				"value": 0.001,
@@ -576,7 +576,7 @@
 			},
 			"quote": "ChAdOx1 nCoV-19 showed efficacy against the B.1.1.7 variant, similar to that observed against previous variants [...] These findings indicate that vaccines could have a substantial effect on the course of the pandemic",
 			"type": "RandomizedControlledTrial",
-			"blinding": "ParticipantsAndInvestigators",
+			"blinding": "Double",
 			"sample_size": 8534,
 			"p_value": {
 				"value": 0.01,
