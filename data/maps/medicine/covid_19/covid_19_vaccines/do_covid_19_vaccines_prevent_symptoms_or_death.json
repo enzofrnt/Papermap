@@ -155,5 +155,501 @@
 	},
 	"no_blinding": false,
 	"no_sample_size": false,
-	"papers": []
+	"papers": [
+		{
+			"uuid": "COVID_POLACK_2020",
+			"openalex_id": "W3112777092",
+			"title": "Safety and Efficacy of the BNT162b2 mRNA Covid-19 Vaccine",
+			"authors": [
+				"Fernando P. Polack",
+				"Stephen J. Thomas",
+				"Nicholas Kitchin",
+				"Judith Absalon"
+			],
+			"year": 2020,
+			"link": "https://doi.org/10.1056/NEJMoa2034577",
+			"journal": {
+				"id": "S49488433",
+				"retracted": false
+			},
+			"citations": 18000,
+			"results": {
+				"consensus": "no_consensus",
+				"conclusion": "yes",
+				"indirect": false
+			},
+			"quote": "A two-dose regimen of BNT162b2 conferred 95% protection against Covid-19 [...] The observed high vaccine efficacy occurred across subgroups defined by age, sex, race, ethnicity, baseline body-mass index, and the presence of coexisting conditions",
+			"review": {
+				"type": "NotALiteratureReview"
+			},
+			"type": "RandomizedControlledTrial",
+			"blinding": "ParticipantsAndInvestigators",
+			"sample_size": 43548,
+			"p_value": 0.001,
+			"conflict_of_interest": "SomeLinks",
+			"notes": []
+		},
+		{
+			"uuid": "COVID_BADEN_2021",
+			"openalex_id": "W3118346288",
+			"title": "Efficacy and Safety of the mRNA-1273 SARS-CoV-2 Vaccine",
+			"authors": [
+				"Lindsey R. Baden",
+				"Hana M. El Sahly",
+				"Brandon Essink",
+				"Karen Kotloff"
+			],
+			"year": 2021,
+			"link": "https://doi.org/10.1056/NEJMoa2035389",
+			"journal": {
+				"id": "S49488433",
+				"retracted": false
+			},
+			"citations": 11000,
+			"results": {
+				"consensus": "no_consensus",
+				"conclusion": "yes",
+				"indirect": false
+			},
+			"quote": "The mRNA-1273 vaccine showed 94.1% efficacy at preventing Covid-19 illness, including severe disease. Aside from transient local and systemic reactions, no safety concerns were identified",
+			"review": {
+				"type": "NotALiteratureReview"
+			},
+			"type": "RandomizedControlledTrial",
+			"blinding": "ParticipantsAndInvestigators",
+			"sample_size": 30420,
+			"p_value": 0.001,
+			"conflict_of_interest": "SomeLinks",
+			"notes": []
+		},
+		{
+			"uuid": "COVID_VOYSEY_2021",
+			"openalex_id": "W3123901354",
+			"title": "Safety and efficacy of the ChAdOx1 nCoV-19 vaccine (AZD1222) against SARS-CoV-2: an interim analysis of four randomised controlled trials in Brazil, South Africa, and the UK",
+			"authors": [
+				"Merryn Voysey",
+				"Sue Ann Costa Clemens",
+				"Shabir A Madhi",
+				"Lily Y Weckx"
+			],
+			"year": 2021,
+			"link": "https://doi.org/10.1016/S0140-6736(20)32661-1",
+			"journal": {
+				"id": "S95478288",
+				"retracted": false
+			},
+			"citations": 8500,
+			"results": {
+				"consensus": "no_consensus",
+				"conclusion": "yes",
+				"indirect": false
+			},
+			"quote": "ChAdOx1 nCoV-19 has an acceptable safety profile and has been found to be efficacious against symptomatic COVID-19 in this interim analysis of ongoing clinical trials",
+			"review": {
+				"type": "NotALiteratureReview"
+			},
+			"type": "RandomizedControlledTrial",
+			"blinding": "ParticipantsAndInvestigators",
+			"sample_size": 11636,
+			"p_value": 0.001,
+			"conflict_of_interest": "SomeLinks",
+			"notes": []
+		},
+		{
+			"uuid": "COVID_SADOFF_2021",
+			"openalex_id": "W3160321046",
+			"title": "Safety and Efficacy of Single-Dose Ad26.COV2.S Vaccine against Covid-19",
+			"authors": [
+				"Jerald Sadoff",
+				"Glenda Gray",
+				"An Vandebosch",
+				"Vicky Cárdenas"
+			],
+			"year": 2021,
+			"link": "https://doi.org/10.1056/NEJMoa2101544",
+			"journal": {
+				"id": "S49488433",
+				"retracted": false
+			},
+			"citations": 4200,
+			"results": {
+				"consensus": "towards_yes",
+				"conclusion": "yes",
+				"indirect": false
+			},
+			"quote": "A single dose of Ad26.COV2.S vaccine provided protection against both moderate and severe-critical COVID-19 [...] Efficacy against severe-critical disease was 73.1% in the United States",
+			"review": {
+				"type": "NotALiteratureReview"
+			},
+			"type": "RandomizedControlledTrial",
+			"blinding": "ParticipantsAndInvestigators",
+			"sample_size": 43783,
+			"p_value": 0.001,
+			"conflict_of_interest": "SomeLinks",
+			"notes": []
+		},
+		{
+			"uuid": "COVID_DAGAN_2021",
+			"openalex_id": "W3132818655",
+			"title": "BNT162b2 mRNA Covid-19 Vaccine in a Nationwide Mass Vaccination Setting",
+			"authors": [
+				"Noa Dagan",
+				"Noam Barda",
+				"Eldad Kepten",
+				"Oren Miron"
+			],
+			"year": 2021,
+			"link": "https://doi.org/10.1056/NEJMoa2101765",
+			"journal": {
+				"id": "S49488433",
+				"retracted": false
+			},
+			"citations": 5800,
+			"results": {
+				"consensus": "towards_yes",
+				"conclusion": "yes",
+				"indirect": false
+			},
+			"quote": "This study in a nationwide mass vaccination setting suggests that the BNT162b2 mRNA vaccine is effective for a wide range of Covid-19–related outcomes [...] Estimated vaccine effectiveness ranged from 46% to 92% 14 to 20 days after the first dose and from 87% to 92% 7 days or more after the second dose",
+			"review": {
+				"type": "NotALiteratureReview"
+			},
+			"type": "CohortStudy",
+			"blinding": "None",
+			"sample_size": 596618,
+			"p_value": 0.001,
+			"conflict_of_interest": "None",
+			"notes": []
+		},
+		{
+			"uuid": "COVID_HAAS_2021",
+			"openalex_id": "W3201188185",
+			"title": "Impact and effectiveness of mRNA BNT162b2 vaccine against SARS-CoV-2 infections and COVID-19 cases, hospitalisations, and deaths following a nationwide vaccination campaign in Israel: an observational study using national surveillance data",
+			"authors": [
+				"Eric J Haas",
+				"Frederick J Angulo",
+				"John M McLaughlin",
+				"Emilia Anis"
+			],
+			"year": 2021,
+			"link": "https://doi.org/10.1016/S0140-6736(21)00947-8",
+			"journal": {
+				"id": "S95478288",
+				"retracted": false
+			},
+			"citations": 2800,
+			"results": {
+				"consensus": "towards_yes",
+				"conclusion": "yes",
+				"indirect": false
+			},
+			"quote": "Two doses of BNT162b2 are highly effective across all age groups in preventing symptomatic and asymptomatic SARS-CoV-2 infections and COVID-19-related hospitalisations, severe disease, and death, including those caused by the B.1.1.7 SARS-CoV-2 variant",
+			"review": {
+				"type": "NotALiteratureReview"
+			},
+			"type": "EcologicalStudy",
+			"blinding": "None",
+			"sample_size": 5700000,
+			"p_value": 0.001,
+			"conflict_of_interest": "SomeLinks",
+			"notes": []
+		},
+		{
+			"uuid": "COVID_TENFORDE_2021",
+			"openalex_id": "W3181820867",
+			"title": "Effectiveness of Pfizer-BioNTech and Moderna Vaccines Against COVID-19 Among Hospitalized Adults Aged ≥65 Years — United States, January–March 2021",
+			"authors": [
+				"Mark W. Tenforde",
+				"Sara S. Kim",
+				"Christopher J. Lindsell",
+				"Erica Billig Rose"
+			],
+			"year": 2021,
+			"link": "https://doi.org/10.15585/mmwr.mm7018e1",
+			"journal": {
+				"id": "S4294967295",
+				"retracted": false
+			},
+			"citations": 1200,
+			"results": {
+				"consensus": "towards_yes",
+				"conclusion": "yes",
+				"indirect": false
+			},
+			"quote": "Findings from a multistate network of U.S. hospitals showed that mRNA COVID-19 vaccines were highly effective in preventing COVID-19–associated hospitalizations among adults aged ≥65 years. Vaccine effectiveness was 94% after full immunization",
+			"review": {
+				"type": "NotALiteratureReview"
+			},
+			"type": "CaseControlStudy",
+			"blinding": "None",
+			"sample_size": 417,
+			"p_value": 0.001,
+			"conflict_of_interest": "None",
+			"notes": []
+		},
+		{
+			"uuid": "COVID_PURANIK_2021",
+			"openalex_id": "W3192758717",
+			"title": "Comparison of two highly-effective mRNA vaccines for COVID-19 during periods of Alpha and Delta variant prevalence",
+			"authors": [
+				"Arjun Puranik",
+				"Patrick J. Lenehan",
+				"Eli Silvert",
+				"John C. Niesen"
+			],
+			"year": 2021,
+			"link": "https://doi.org/10.1101/2021.08.06.21261707",
+			"journal": {
+				"id": "NotInDatabase",
+				"retracted": false
+			},
+			"citations": 350,
+			"results": {
+				"consensus": "towards_yes",
+				"conclusion": "yes",
+				"indirect": false
+			},
+			"quote": "Both mRNA-1273 and BNT162b2 COVID-19 vaccines strongly protect against infection, COVID-19 related hospital admission and death. The vaccines were found to be highly effective during both the Alpha and Delta variant periods",
+			"review": {
+				"type": "NotALiteratureReview"
+			},
+			"type": "CohortStudy",
+			"blinding": "None",
+			"sample_size": 50000,
+			"p_value": 0.001,
+			"conflict_of_interest": "None",
+			"notes": []
+		},
+		{
+			"uuid": "COVID_TARTOF_2021",
+			"openalex_id": "W3202926958",
+			"title": "Effectiveness of mRNA BNT162b2 COVID-19 vaccine up to 6 months in a large integrated health system in the USA: a retrospective cohort study",
+			"authors": [
+				"Sara Y Tartof",
+				"Jeff M Slezak",
+				"Heidi Fischer",
+				"Vennis Hong"
+			],
+			"year": 2021,
+			"link": "https://doi.org/10.1016/S0140-6736(21)02183-8",
+			"journal": {
+				"id": "S95478288",
+				"retracted": false
+			},
+			"citations": 1500,
+			"results": {
+				"consensus": "towards_yes",
+				"conclusion": "yes_but_low_confidence",
+				"indirect": false
+			},
+			"quote": "BNT162b2 is highly effective against SARS-CoV-2 infection and severe COVID-19, but effectiveness against infection wanes after 4 months. Effectiveness against severe COVID-19 remains high at 6 months",
+			"review": {
+				"type": "NotALiteratureReview"
+			},
+			"type": "CohortStudy",
+			"blinding": "None",
+			"sample_size": 3436957,
+			"p_value": 0.001,
+			"conflict_of_interest": "None",
+			"notes": []
+		},
+		{
+			"uuid": "COVID_THOMAS_2021",
+			"openalex_id": "W3203850611",
+			"title": "Safety and Efficacy of the BNT162b2 mRNA Covid-19 Vaccine through 6 Months",
+			"authors": [
+				"Stephen J. Thomas",
+				"Edson D. Moreira",
+				"Nicholas Kitchin",
+				"Judith Absalon"
+			],
+			"year": 2021,
+			"link": "https://doi.org/10.1056/NEJMoa2110345",
+			"journal": {
+				"id": "S49488433",
+				"retracted": false
+			},
+			"citations": 3400,
+			"results": {
+				"consensus": "towards_yes",
+				"conclusion": "yes",
+				"indirect": false
+			},
+			"quote": "High vaccine efficacy against Covid-19 was observed after BNT162b2, with a vaccine efficacy of 91.3% through up to 6 months of follow-up. Efficacy was consistent across subgroups defined by age, sex, race, ethnicity, and underlying medical conditions",
+			"review": {
+				"type": "NotALiteratureReview"
+			},
+			"type": "RandomizedControlledTrial",
+			"blinding": "ParticipantsAndInvestigators",
+			"sample_size": 46307,
+			"p_value": 0.001,
+			"conflict_of_interest": "SomeLinks",
+			"notes": []
+		},
+		{
+			"uuid": "COVID_THOMPSON_2021",
+			"openalex_id": "W3155715084",
+			"title": "Interim Estimates of Vaccine Effectiveness of BNT162b2 and mRNA-1273 COVID-19 Vaccines in Preventing SARS-CoV-2 Infection Among Health Care Personnel, First Responders, and Other Essential and Frontline Workers — Eight U.S. Locations, December 2020–March 2021",
+			"authors": [
+				"Mark G. Thompson",
+				"Jefferey L. Burgess",
+				"Allison L. Naleway",
+				"Harmony Tyner"
+			],
+			"year": 2021,
+			"link": "https://doi.org/10.15585/mmwr.mm7013e3",
+			"journal": {
+				"id": "S4294967295",
+				"retracted": false
+			},
+			"citations": 2000,
+			"results": {
+				"consensus": "towards_yes",
+				"conclusion": "yes",
+				"indirect": false
+			},
+			"quote": "Following the second dose, vaccine effectiveness was 90% against SARS-CoV-2 infection. These findings demonstrate that mRNA COVID-19 vaccines can reduce the risk for SARS-CoV-2 infection, not just the risk for symptomatic disease",
+			"review": {
+				"type": "NotALiteratureReview"
+			},
+			"type": "CohortStudy",
+			"blinding": "None",
+			"sample_size": 3950,
+			"p_value": 0.001,
+			"conflict_of_interest": "None",
+			"notes": []
+		},
+		{
+			"uuid": "COVID_BERNAL_2021",
+			"openalex_id": "W3177273956",
+			"title": "Effectiveness of Covid-19 Vaccines against the B.1.617.2 (Delta) Variant",
+			"authors": [
+				"Jamie Lopez Bernal",
+				"Nick Andrews",
+				"Charlotte Gower",
+				"Chris Robertson"
+			],
+			"year": 2021,
+			"link": "https://doi.org/10.1056/NEJMoa2108891",
+			"journal": {
+				"id": "S49488433",
+				"retracted": false
+			},
+			"citations": 3200,
+			"results": {
+				"consensus": "towards_yes",
+				"conclusion": "yes_but_small_effect",
+				"indirect": false
+			},
+			"quote": "Only modest differences in vaccine effectiveness were noted with the delta variant as compared with the alpha variant after the receipt of two vaccine doses. Absolute differences in vaccine effectiveness were more marked after the receipt of the first dose",
+			"review": {
+				"type": "NotALiteratureReview"
+			},
+			"type": "CaseControlStudy",
+			"blinding": "None",
+			"sample_size": 19109,
+			"p_value": 0.001,
+			"conflict_of_interest": "None",
+			"notes": []
+		},
+		{
+			"uuid": "COVID_EMARY_2021",
+			"openalex_id": "W3160373506",
+			"title": "Efficacy of ChAdOx1 nCoV-19 (AZD1222) vaccine against SARS-CoV-2 variant of concern 202012/01 (B.1.1.7): an exploratory analysis of a randomised controlled trial",
+			"authors": [
+				"Katherine R W Emary",
+				"Tanya Golubchik",
+				"Parvinder K Aley",
+				"Cristina V Ariani"
+			],
+			"year": 2021,
+			"link": "https://doi.org/10.1016/S0140-6736(21)00628-0",
+			"journal": {
+				"id": "S95478288",
+				"retracted": false
+			},
+			"citations": 1100,
+			"results": {
+				"consensus": "towards_yes",
+				"conclusion": "yes",
+				"indirect": false
+			},
+			"quote": "ChAdOx1 nCoV-19 showed efficacy against the B.1.1.7 variant, similar to that observed against previous variants [...] These findings indicate that vaccines could have a substantial effect on the course of the pandemic",
+			"review": {
+				"type": "NotALiteratureReview"
+			},
+			"type": "RandomizedControlledTrial",
+			"blinding": "ParticipantsAndInvestigators",
+			"sample_size": 8534,
+			"p_value": 0.01,
+			"conflict_of_interest": "SomeLinks",
+			"notes": []
+		},
+		{
+			"uuid": "COVID_GRANEHEIM_2021",
+			"openalex_id": "W3205516719",
+			"title": "Effectiveness of a third BNT162b2 mRNA COVID-19 vaccine dose in preventing severe outcomes in an observational cohort of adults aged over 60 years in Israel: a retrospective follow-up study",
+			"authors": [
+				"Yinon M Bar-On",
+				"Yair Goldberg",
+				"Micha Mandel",
+				"Omri Bodenheimer"
+			],
+			"year": 2021,
+			"link": "https://doi.org/10.1016/S0140-6736(21)02249-2",
+			"journal": {
+				"id": "S95478288",
+				"retracted": false
+			},
+			"citations": 950,
+			"results": {
+				"consensus": "towards_yes",
+				"conclusion": "yes",
+				"indirect": false
+			},
+			"quote": "A third BNT162b2 dose provides substantial protection against severe COVID-19 outcomes among adults aged 60 years or older, compared with those who received two doses at least 5 months previously",
+			"review": {
+				"type": "NotALiteratureReview"
+			},
+			"type": "CohortStudy",
+			"blinding": "None",
+			"sample_size": 728321,
+			"p_value": 0.001,
+			"conflict_of_interest": "None",
+			"notes": []
+		},
+		{
+			"uuid": "COVID_ARBEL_2022",
+			"openalex_id": "W4210920925",
+			"title": "BNT162b2 Vaccine Booster and Mortality Due to Covid-19",
+			"authors": [
+				"Ronen Arbel",
+				"Svetlana Hammerman",
+				"Galit Sergienko",
+				"Ariel Friger"
+			],
+			"year": 2022,
+			"link": "https://doi.org/10.1056/NEJMoa2115624",
+			"journal": {
+				"id": "S49488433",
+				"retracted": false
+			},
+			"citations": 520,
+			"results": {
+				"consensus": "towards_yes",
+				"conclusion": "yes",
+				"indirect": false
+			},
+			"quote": "Among participants 50 years of age or older, the rate of death from Covid-19 was significantly lower among those who received a BNT162b2 booster vaccine than among those who did not receive a booster vaccine",
+			"review": {
+				"type": "NotALiteratureReview"
+			},
+			"type": "CohortStudy",
+			"blinding": "None",
+			"sample_size": 843208,
+			"p_value": 0.001,
+			"conflict_of_interest": "None",
+			"notes": []
+		}
+	]
 }
