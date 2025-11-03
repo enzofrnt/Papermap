@@ -235,7 +235,7 @@
 			"year": 2021,
 			"link": "https://doi.org/10.1016/S0140-6736(20)32661-1",
 			"journal": {
-				"id": "S95478288",
+				"id": "S49861241",
 				"retracted": false
 			},
 			"citations": 8500,
@@ -334,7 +334,7 @@
 			"year": 2021,
 			"link": "https://doi.org/10.1016/S0140-6736(21)00947-8",
 			"journal": {
-				"id": "S95478288",
+				"id": "S49861241",
 				"retracted": false
 			},
 			"citations": 2800,
@@ -367,7 +367,7 @@
 			"year": 2021,
 			"link": "https://doi.org/10.15585/mmwr.mm7018e1",
 			"journal": {
-				"id": "S4294967295",
+				"id": "S4210169956",
 				"retracted": false
 			},
 			"citations": 1200,
@@ -433,7 +433,7 @@
 			"year": 2021,
 			"link": "https://doi.org/10.1016/S0140-6736(21)02183-8",
 			"journal": {
-				"id": "S95478288",
+				"id": "S49861241",
 				"retracted": false
 			},
 			"citations": 1500,
@@ -499,7 +499,7 @@
 			"year": 2021,
 			"link": "https://doi.org/10.15585/mmwr.mm7013e3",
 			"journal": {
-				"id": "S4294967295",
+				"id": "S4210169956",
 				"retracted": false
 			},
 			"citations": 2000,
@@ -565,7 +565,7 @@
 			"year": 2021,
 			"link": "https://doi.org/10.1016/S0140-6736(21)00628-0",
 			"journal": {
-				"id": "S95478288",
+				"id": "S49861241",
 				"retracted": false
 			},
 			"citations": 1100,
@@ -598,7 +598,7 @@
 			"year": 2021,
 			"link": "https://doi.org/10.1016/S0140-6736(21)02249-2",
 			"journal": {
-				"id": "S95478288",
+				"id": "S49861241",
 				"retracted": false
 			},
 			"citations": 950,
